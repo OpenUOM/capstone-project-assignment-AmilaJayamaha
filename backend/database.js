@@ -23,7 +23,11 @@ const dbinitialize = async () => {
 }
 
 const readTeachers = async () => {
+<<<<<<< HEAD
     const sql = `SELECT * FROM teacher`;
+=======
+    const sql = `SELECT * FROM teacher`
+>>>>>>> 90f0eb5d5d8cf37755a66310d8ac3d8118f2658b
     return new Promise((resolve, reject) => {
         knex_db
             .raw(sql)
